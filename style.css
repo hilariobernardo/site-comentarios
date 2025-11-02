@@ -102,6 +102,30 @@ h1 {
     color: #ffd700;
 }
 
+.review-vote {
+    background: none;
+    border: 1px solid #44444449;
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #fffefe;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+#review-upvote {}
+
+#review-downvote {}
+
+#review-upvote:hover {
+    color: #ffd700;
+}
+
+#review-downvote:hover {
+    color: #8400ff;
+}
+
 .form-group {
     margin-bottom: 20px;
 }
